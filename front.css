@@ -1,0 +1,149 @@
+.header{
+    background-image: linear-gradient(#4B0B0B,#7B0D0D);
+    padding:10px 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    background-image:url(Images/Rectangle\ 4137.png);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-size: 100%;
+    background-repeat:no-repeat;
+width:100%
+  
+   
+    
+}
+.card-title{
+   font-size:20px;
+   display:inline-flex ;
+   flex-direction: column;
+  text-align: center;
+  color: #00337D;
+  margin-top: -100px;
+}
+.card-text{
+    text-align: center;
+   margin-bottom: 110px;
+   font-size: smaller;
+ 
+}
+
+.main{
+    background-image: url(Images/Banner-3\ 1.png);
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom:100px;
+}
+.content{
+ 
+}
+.cont1{
+    color: #00337D;
+    font-size: 50px;
+}
+.cardmain{
+    margin-bottom:200px ;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.login{
+    width: 10%;
+height: auto;
+position: relative;
+top: -360px;
+left: 400px; 
+border-radius: 91px 91px ;
+padding: 10px;
+
+background: linear-gradient(52.91deg, #056900 30.55%, #41CB00 88.68%);
+color: #E7F1FF;
+font-size: larger;
+border: none;
+display: flex;
+justify-content: center;
+
+
+}
+.function{
+    margin-top: -200px;
+}
+
+.carousel-wrap{
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 100%;
+    position: relative;
+  }
+
+  /* fix blank or flashing items on carousel */
+  .owl-carousel .item{
+    position: relative;
+    z-index: 100;
+    /* -webkit-backface-visibility: hidden; */
+  }
+
+  /* end fix */
+  .owl-nav>div{
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+  }
+
+  .owl-nav i{
+    font-size: 52px;
+  }
+
+  .owl-nav .owl-prev{
+    position: absolute;
+    top: 6%;
+    right: 103%;
+  }
+
+  .owl-nav .owl-next{
+    position: absolute;
+    left: 103%;
+    top: 6%;
+  }
+  .ft{
+    background-image: linear-gradient(#4B0B0B,#7B0D0D);
+    padding: 50px 70px;
+  }
+  .footer{
+    color: #FFE100;
+  }
+  
+.fd{
+    color: white;
+}
+@media screen and (max-width:628px){
+    .cardmain{
+        width: 65%;
+        text-align: center;
+        align-items: center;
+    }
+    .login{
+       position: relative;
+       top: -1880px;
+       right:10px;
+       /* left: 10px; */
+     border-radius: 5px;
+     padding: 10px 0px;
+     width: 15%;
+    }
+    .cardmain{
+        padding-top: 50px;
+    }
+    .function{
+        width: 100%;
+        margin-top: -450px;
+    }
+
+}
