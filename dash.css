@@ -1,0 +1,139 @@
+.hea {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 10px rgba(226, 229, 231, 0.59)
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px 20px; */
+    row-gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+    
+
+
+}
+.dash{
+    color: white;
+    font-size: larger;
+}
+.sidee{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px 25px;
+    
+
+}
+.total{
+    background-color: #FFE2E5;
+    border-radius: 10px 10px;
+    flex-grow: 1;
+    text-align: center;
+
+    
+}
+.approve{
+    background-color: #FFF4DE;
+    border-radius: 10px 10px;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+.start{
+    background-color: #DCFCE7;
+    border-radius: 10px 10px;
+    flex-grow: 1;
+    text-align: center;
+
+
+}
+.progre{
+    background-color: #F3E8FF;
+    border-radius: 10px 10px;
+    flex-grow: 1;
+    text-align: center;
+    
+    
+}
+.complete{
+    background-color: #E8EDFF;
+    border-radius: 10px 10px;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+.rev{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+
+    
+}
+.trev{
+    width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: xx-small;
+    width: 100vw;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:748px) {
+    .hea {
+        width: 100vw;
+    
+        display: grid;
+        grid-template-areas:
+            'div1'
+            'div2'
+            'div3'
+            'div4'
+            'div5'
+            'div6'
+            'div7'
+            'div8'
+        ;
+        align-items: center;
+    }
+    .bar{
+        height: 100vh;
+        display: grid;
+        grid-template-areas:
+            'a'
+            'b'
+            'c'
+            'd'
+            'e'
+            'f'
+            'g'
+            'h'
+        ;
+        
+    }
+}
+@media screen and (min-width:768px) and (max-width:1200px){
+    .bar{
+        height: auto;
+        gap:20px 20px
+        
+    }
+    
+    
+}
