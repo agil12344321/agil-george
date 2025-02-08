@@ -1,0 +1,62 @@
+.ban{
+background-image: url(Images/Welcome.png);
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+} 
+.logo1{
+    background-color: #4B0B0B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+     
+}
+@media screen and (min-width:428px) and (max-width:431px) {
+    .main{
+        margin-bottom: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .right{
+            width: 100vw;
+    }
+}
+@media screen and (min-width:1023px) and (max-width:1025px){
+    .main{
+        margin-bottom: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
